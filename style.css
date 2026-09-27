@@ -618,6 +618,10 @@ footer{
         overflow: hidden;
         overflow-x: scroll;
     }
+    .hero__container .hero__link-session::-webkit-scrollbar {
+        width: 2px;
+        height: 5px;
+    }
     .hero__container .hero__link-session ul li{
         margin: 0px 10px
     }
@@ -689,6 +693,10 @@ footer{
         left:5%;
         overflow: hidden;
         overflow-x: scroll;
+    }
+    .hero__container .hero__link-session::-webkit-scrollbar {
+        width: 2px;
+        height: 5px;
     }
     .hero__link-session ul li{
         margin: 0px 20px;
