@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip adviser</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <div class="header__logo c-pointer">
+                    <img src="./image/logo.png" alt="logo" />
+                </div>
+                <div class="header__outer">
+                    <div class="header__links">
+                        <ul>
+                            <li>Discover</li>
+                            <li>Review</li>
+                            <li>More</li>
+                        </ul>
+                    </div>
+                    <div class="header__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="header__language">
+                        <div class="globe-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="rupee-style">
+                            <p>INR</p>
+                        </div>
+                    </div>
+                    <div class="header__signin">
+                        <button type="button">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="hero">
+                <div class="hero__container">
+                    <div class="hero__link-session">
+                        <ul class="c-pointer">
+                            <li class="hero__link-session-active">
+                                <div class="hero__link-icon">
+                                    <i class="fa-solid fa-building-user"></i>
+                                </div>
+                                <div class="hero__link">
+                                    Hotels
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero__link-icon">
+                                    <i class="fa-solid fa-plane-departure"></i>
+                                </div>
+                                <div class="hero__link">
+                                    Flights
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero__link-icon">
+                                    <i class="fa-solid fa-house-chimney-window"></i>
+                                </div>
+                                <div class="hero__link">
+                                    Villas & Homestays
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero__link-icon">
+                                    <i class="fa-solid fa-umbrella-beach"></i>
+                                </div>
+                                <div class="hero__link">
+                                    Holiday packages
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero__link-icon">
+                                    <i class="fa-solid fa-train"></i>
+                                </div>
+                                <div class="hero__link">
+                                    Trains
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero__link-icon">
+                                    <i class="fa-solid fa-bus-side"></i>
+                                </div>
+                                <div class="hero__link">
+                                    Buses
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero__link-icon">
+                                    <i class="fa-solid fa-truck-pickup"></i>
+                                </div>
+                                <div class="hero__link">
+                                    Cabs
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero__link-icon">
+                                    <i class="fa-solid fa-parachute-box"></i>
+                                </div>
+                                <div class="hero__link">
+                                    Tours & Attractions
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero__link-icon">
+                                    <i class="fa-solid fa-passport"></i>
+                                </div>
+                                <div class="hero__link">
+                                    Visa
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero__link-icon">
+                                    <i class="fa-solid fa-money-bill-1-wave"></i>
+                                </div>
+                                <div class="hero__link">
+                                    Card & Currency
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hero__discription">
+                        <div class="hero__age c-pointer">
+                            <div class="hero__age-radio hero__age-radio-active">
+                                <input type="radio" name="adult" class="c-pointer" id="adult" checked />
+                                <label class="c-pointer" for="adult">Upto 4 Rooms</label>
+                            </div>
+                            <div class="hero__age-radio c-pointer">
+                                <input type="radio" name="group" class="c-pointer" id="group" />
+                                <label class="c-pointer" for="group">Group Details</label>
+                                <div class="hero__age-badge">
+                                    <p>New</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__booking-discription">
+                            <a href="#"> Book Domestic and International Property Online. To list your property
+                                <span>click here</span></a>
+                        </div>
+                    </div>
+                    <div class="hero__search">
+                        <div class="hero__search-card">
+                            <p>City,<span>Property, Name Or Location</span> </p>
+                            <h2>Madurai, TN</h2>
+                            <p>India</p>
+                        </div>
+                        <div class="hero__search-card">
+                            <p>Check-In</p>
+                            <h2>27 <span>Sep'26</span></h2>
+                            <p>Sunday</p>
+                        </div>
+                        <div class="hero__search-card">
+                            <p>Check-out</p>
+                            <h2>28 <span>Sep'26</span></h2>
+                            <p>Monday</p>
+                        </div>
+                        <div class="hero__search-card">
+                            <p>Rooms & Gusts</p>
+                            <h2>1 <span>Room</span> 2 <span>Adults</span></h2>
+                        </div>
+                        <div class="hero__search-card">
+                            <p>Price per night</p>
+                            <p class="currency"><span><i class="fa-solid fa-indian-rupee-sign"></i></span><span>0</span>
+                                - <span><i class="fa-solid fa-indian-rupee-sign"></i></span><span>5000</span></p>
+                        </div>
+                    </div>
+                    <div class="hero__trending-search">
+                        <div class="hero__trending-search-title">
+                            <p>Trending Search: </p>
+                        </div>
+                        <div class="hero__trending-outer">
+                            <div class="hero__trending-card">
+                                <p>Dubai, United Arab Emirates</p>
+                            </div>
+                            <div class="hero__trending-card">
+                                <p>London, United Kingdom</p>
+                            </div>
+                            <div class="hero__trending-card">
+                                <p>Singapore, Singapore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offers">
+                <div class="offers__title">
+                    <h2>Offers For You</h2>
+                </div>
+                <div class="offers__session">
+                    <div class="offers__session-card">
+                        <div class="offer__session-image">
+                            <img src="./image/offer1.avif" alt="offer-image" />
+                        </div>
+                        <div class="offer__session-descripiton">
+                            <h4>Up to 20% OFF* on domestic & international flight + hotels!</h4>
+                            <p>Valid till: *Limited Period Offers</p>
+                        </div>
+                    </div>
+                    <div class="offers__session-card">
+                        <div class="offer__session-image">
+                            <img src="./image/offer2.avif" alt="offer-image" />
+                        </div>
+                        <div class="offer__session-descripiton">
+                            <h4>Up to 15% OFF* on Flights and Hotels bookings</h4>
+                            <p>Valid till: *Limited Period Offers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-slide">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="other-services">
+                <div class="other-services__title">
+                    <h2>Raja's Other Services</h2>
+                </div>
+                <div class="other-services__session">
+                    <div class="other-service-gallery">
+                        <div class="other-service-image">
+                            <img src="./image/service1.png" alt="service-1" />
+                        </div>
+                        <div class="other-service__discription">
+                            <h4>Adventure</h4>
+                            <p>Plan my Trip <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="other-service-gallery">
+                        <div class="other-service-image">
+                            <img src="./image/service2.png" alt="service-1" />
+                        </div>
+                        <div class="other-service__discription">
+                            <h4>Mice</h4>
+                            <p>Plan my Trip <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="other-service-gallery">
+                        <div class="other-service-image">
+                            <img src="./image/service3.png" alt="service-1" />
+                        </div>
+                        <div class="other-service__discription">
+                            <h4>Cruse</h4>
+                            <p>Plan my Trip <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="other-service-gallery">
+                        <div class="other-service-image">
+                            <img src="./image/service4.png" alt="service-1" />
+                        </div>
+                        <div class="other-service__discription">
+                            <h4>Villas & Stays</h4>
+                            <p>Plan my Trip <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="other-service-gallery">
+                        <div class="other-service-image">
+                            <img src="./image/service5.png" alt="service-1" />
+                        </div>
+                        <div class="other-service__discription">
+                            <h4>Luxury Trains</h4>
+                            <p>Plan my Trip <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="other-service-gallery">
+                        <div class="other-service-image">
+                            <img src="./image/service6.png" alt="service-1" />
+                        </div>
+                        <div class="other-service__discription">
+                            <h4>Activities</h4>
+                            <p>Plan my Trip <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="other-service-gallery">
+                        <div class="other-service-image">
+                            <img src="./image/service7.jpg" alt="service-1" />
+                        </div>
+                        <div class="other-service__discription">
+                            <h4>Gift Voucher</h4>
+                            <p>Plan my Trip <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="other-service-gallery">
+                        <div class="other-service-image">
+                            <img src="./image/service8.jpg" alt="service-1" />
+                        </div>
+                        <div class="other-service__discription">
+                            <h4>Freight</h4>
+                            <p>Plan my Trip <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="other-service-gallery">
+                        <div class="other-service-image">
+                            <img src="./image/service9.jpg" alt="service-1" />
+                        </div>
+                        <div class="other-service__discription">
+                            <h4>Visa</h4>
+                            <p>Plan my Trip <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="next-plan">
+                <div class="next-plan__description">
+                    <h2>Your next trip is waiting</h2>
+                    <h4>Weekend getaways from Sivakasi</h4>
+                </div>
+                <div class="next-plan__session">
+                    <div class="next-plan__card">
+                        <div class="next-plan__card-details">
+                            <div class="next-plan__image">
+                                <img src="./image/next1.jpg" alt="next-plan-images" />
+                            </div>
+                            <div class="next-plan__image-title">
+                                <h5>Madurai, India</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-plan__card">
+                        <div class="next-plan__card-details">
+                            <div class="next-plan__image">
+                                <img src="./image/next2.jpg" alt="next-plan-images" />
+                            </div>
+                            <div class="next-plan__image-title">
+                                <h5>Ooty, India</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-plan__card">
+                        <div class="next-plan__card-details">
+                            <div class="next-plan__image">
+                                <img src="./image/next3.jpg" alt="next-plan-images" />
+                            </div>
+                            <div class="next-plan__image-title">
+                                <h5>Kovalam, India</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-plan__card">
+                        <div class="next-plan__card-details">
+                            <div class="next-plan__image">
+                                <img src="./image/next4.jpg" alt="next-plan-images" />
+                            </div>
+                            <div class="next-plan__image-title">
+                                <h5>Trivandrum, India</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-plan__card">
+                        <div class="next-plan__card-details">
+                            <div class="next-plan__image">
+                                <img src="./image/next5.jpg" alt="next-plan-images" />
+                            </div>
+                            <div class="next-plan__image-title">
+                                <h5>Chithirapuram, India</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-plan__card">
+                        <div class="next-plan__card-details">
+                            <div class="next-plan__image">
+                                <img src="./image/next6.jpg" alt="next-plan-images" />
+                            </div>
+                            <div class="next-plan__image-title">
+                                <h5>Kumarakonam, India</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-destination">
+                <div class="popular-destination__title">
+                    <h2>Popular Destinations</h2>
+                    <h4>We have selected some best locations around the world for you.</h4>
+                </div>
+                <div class="popular-destination__session">
+                    <div class="popular-destination__session-main-image">
+                        <div class="main-image">
+                            <img src="./image/des1.avif" alt="sample-destination"/>
+                        </div>
+                        <div class="main-description">
+                            <h3>Mumbai</h3>
+                            <p>Cosmpolitan and financial capital of India</p>
+                        </div>
+                    </div>
+                    <div class="popular-destination__session-other-image">
+                        <div class="other-image-session">
+                            <div class="other-image-card">
+                                <div class="other-image">
+                                    <img src="./image/des2.avif" alt="sample-destination"/>
+                                </div>
+                                <div class="other-description">
+                                    <h3>Ho Chi Minh</h3>
+                                    <p>Economical, historical and entertainment centre of Vietnam</p>
+                                </div>
+                            </div>
+                            <div class="other-image-card">
+                                <div class="other-image">
+                                    <img src="./image/des3.jpg" alt="sample-destination"/>
+                                </div>
+                                <div class="other-description">
+                                    <h3>Paris</h3>
+                                    <p>The city of Light</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="other-image-session">
+                            <div class="other-image-card">
+                                <div class="other-image">
+                                    <img src="./image/des4.webp" alt="sample-destination"/>
+                                </div>
+                                <div class="other-description">
+                                    <h3>Krabi</h3>
+                                    <p>A quaint destination featuring endless natural beauty</p>
+                                </div>
+                            </div>
+                            <div class="other-image-card">
+                                <div class="other-image">
+                                    <img src="./image/des5.webp" alt="sample-destination"/>
+                                </div>
+                                <div class="other-description">
+                                    <h3>Maldives</h3>
+                                    <p>An ultimate luxurious and romantic holiday destination</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-destination__session">
+                    <div class="popular-destination__session-main-image">
+                        <div class="main-image">
+                            <img src="./image/des11.webp" alt="sample-destination"/>
+                        </div>
+                        <div class="main-description">
+                            <h3>Langkawi</h3>
+                            <p>Picturesque island bordering azure blue waters </p>
+                        </div>
+                    </div>
+                    <div class="popular-destination__session-other-image">
+                        <div class="other-image-session">
+                            <div class="other-image-card">
+                                <div class="other-image">
+                                    <img src="./image/des6.avif" alt="sample-destination"/>
+                                </div>
+                                <div class="other-description">
+                                    <h3>Phuket</h3>
+                                    <p>A tropical paradise boasting of stunning beaches</p>
+                                </div>
+                            </div>
+                            <div class="other-image-card">
+                                <div class="other-image">
+                                    <img src="./image/des7.avif" alt="sample-destination"/>
+                                </div>
+                                <div class="other-description">
+                                    <h3>Bali</h3>
+                                    <p>Land of the Gods</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="other-image-session">
+                            <div class="other-image-card">
+                                <div class="other-image">
+                                    <img src="./image/des8.avif" alt="sample-destination"/>
+                                </div>
+                                <div class="other-description">
+                                    <h3>Hyderabad</h3>
+                                    <p>The glorious city of Nizams known for radiant pearls</p>
+                                </div>
+                            </div>
+                            <div class="other-image-card">
+                                <div class="other-image">
+                                    <img src="./image/des9.webp" alt="sample-destination"/>
+                                </div>
+                                <div class="other-description">
+                                    <h3>Shimla</h3>
+                                    <p>Endearing combination of snow-covered peaks and blue sky</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer__session">
+                    <div class="footer__card">
+                        <div class="footer__language">
+                            <p>India</p>
+                            <p>English(UK)</p>
+                            <p class="footer__currency"><i class="fa-solid fa-indian-rupee-sign"></i> INR</p>
+                        </div>
+                    </div>
+                    <div class="footer__card">
+                        <ul>
+                            <li>Help</li>
+                            <li>Sign in</li>
+                            <li>Log in</li>
+                        </ul>
+                    </div>
+                    <div class="footer__card">
+                        <ul>
+                            <li>Cookie Policy</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms Of Service</li>
+                            <li>Company details</li>
+                        </ul>
+                    </div>
+                    <div class="footer__card">
+                        <ul>
+                            <li>Explore</li>
+                            <li>Company</li>
+                            <li>Partners</li>
+                            <li>International Sites</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copy-rights">
+                    <p>Enjoy a Memorable Journey With Us <span>&copy; Raja, 2026</span></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
